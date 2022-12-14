@@ -1,0 +1,97 @@
+package DropDown_Study;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.Select;
+
+public class ListBox_Ex02 {
+
+public static void main(String[] args) throws InterruptedException, IOException {
+     System.setProperty("webdriver.chrome.driver", "F:\\Software Testing Notes\\QA\\chromedriver_win32\\chromedriver.exe");
+     WebDriver driver=new ChromeDriver();
+     driver.manage().window().maximize();
+     driver.get("https://www.facebook.com/");
+ Thread.sleep(2000); 
+     driver.findElement(By.xpath("(//a[@role='button'])[2]")).click();
+ Thread.sleep(2000);
+     driver.findElement(By.name("firstname")).click();
+     driver.findElement(By.name("firstname")).sendKeys("Pratik");
+     driver.findElement(By.xpath("(//input[@type='text'])[3]")).click();
+     driver.findElement(By.xpath("(//input[@type='text'])[3]")).sendKeys("Desale");
+     driver.findElement(By.name("reg_email__")).sendKeys("desalepratik20@gmail.com");
+     driver.findElement(By.name("reg_email_confirmation__")).sendKeys("desalepratik20@gmail.com");
+     driver.findElement(By.id("password_step_input")).sendKeys("Velocity@16July");
+     
+System.out.println("============================================================================================"); 
+Thread.sleep(1500);
+         WebElement Date = driver.findElement(By.id("day"));
+        Select day=new Select(Date);
+        day.selectByVisibleText("20");
+        
+System.out.println("=========================================================================================");
+Thread.sleep(1500);
+         WebElement Month1 = driver.findElement(By.id("month"));
+         Select Month=new Select(Month1);
+         Month.selectByVisibleText("Jan");
+         
+ System.out.println("=======================================================================================");
+ Thread.sleep(1000);
+          WebElement year1 = driver.findElement(By.name("birthday_year"));
+          Select Year=new Select(year1);
+          Year.selectByValue("1998");
+ 
+ System.out.println("===================================================================");
+ Thread.sleep(1000);
+ 
+        WebElement Malegender = driver.findElement(By.xpath("(//input[@type='radio'])[2]"));
+        Malegender.click();
+        System.out.println(Malegender.isSelected());        
+System.out.println("====================================================================");
+
+      File Source=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+      
+      System.out.println(Source);
+      
+      File destination = new File("E:\\\\ScreenShots.QA\\\\myFile 01.png");
+        
+      FileHandler.copy(Source, destination);
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+	}
+
+}

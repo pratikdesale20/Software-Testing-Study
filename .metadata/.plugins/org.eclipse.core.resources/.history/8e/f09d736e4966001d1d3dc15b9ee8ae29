@@ -1,0 +1,38 @@
+package TestNG_Study;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class ValidateUserID {
+  @Test
+  public void ValidateUpstoxUserID()
+  {
+	  Reporter.log("User ID Validate", true);
+  }
+  
+  @Test
+  public void LoginToUpstox()
+  {
+	  Reporter.log("Login Success", true);
+  }
+  
+  @Test
+  public void LogOutFromUpstox()
+  {
+	  Reporter.log("Logging Out", true);
+  }
+  
+  @Test
+  public void LaunchBrowser()
+  {
+	  Reporter.log("launching Browser", true);
+  }
+  
+  @Test
+  public void CloseBrowser()
+  {
+	  Reporter.log("ClosingBrowser", true);
+  }
+  
+  
+}

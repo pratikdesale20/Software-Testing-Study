@@ -1,0 +1,121 @@
+package Webtable_Study;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Ex_01 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver", "F:\\Software Testing Notes\\QA\\chromedriver_win32\\chromedriver.exe");
+	        
+	    WebDriver driver=new ChromeDriver();
+	    driver.manage().window().maximize();
+			     
+	    driver.get("https://vctcpune.com/selenium/practice.html");
+		
+	 // how many rows in table??
+	    
+	     List<WebElement> totalRows = driver.findElements(By.xpath("//table[@id='product']//tr"));
+	    
+	    System.out.println("total number of rows "+totalRows.size());
+	    
+	// how many column are there in table????
+	    
+	     List<WebElement> totalColumn = driver.findElements(By.xpath("//table[@id='product']//tr[1]//th"));
+	    
+	    System.out.println("total number of column are  "+totalColumn.size());
+	    
+	 // how to read specific data?????
+	    
+	    
+	    String specificdata = driver.findElement(By.xpath("//table[@id='product']//tr[6]/td[2]")).getText();
+	    
+	    System.out.println("specific date of row no.6   "+specificdata);
+	    
+// how to read whole row using findElements...........
+	    
+	   List<WebElement> row11 = driver.findElements(By.xpath("//table[@id='product']//tr[11]/td"));
+	    
+	   Iterator<WebElement> it = row11.iterator(); 
+	    
+	   while(it.hasNext())
+	   {
+		   System.out.print(it.next().getText()+"   ");
+	   }
+	   System.out.println(); 
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	}
+
+}

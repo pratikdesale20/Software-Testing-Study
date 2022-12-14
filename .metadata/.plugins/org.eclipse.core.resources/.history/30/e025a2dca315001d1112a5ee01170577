@@ -1,0 +1,19 @@
+package ControlStatements;
+
+public class else_Study {
+
+	public static void main(String[] args) 
+	{   // if marks greater than or equal 50 then i am Pass, else I am fail
+		
+		int marks=65;
+		if(marks>=50)
+		{
+			System.out.println("I am pass");
+		}
+		else 
+		{
+			System.out.println(" I am fail");
+		}
+	}
+
+}

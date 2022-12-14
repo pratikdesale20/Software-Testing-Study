@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC5 regression Running]]>
+    </line>
+    <line>
+      <![CDATA[TC7 regression Running]]>
+    </line>
+    <line>
+      <![CDATA[TC9 regression Running]]>
+    </line>
+    <line>
+      <![CDATA[TC1 regression Running]]>
+    </line>
+    <line>
+      <![CDATA[TC3 regression Running]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-10T23:59:46 IST" name="Suite" finished-at="2022-12-10T23:59:46 IST" duration-ms="95">
+    <groups>
+      <group name="Regression">
+        <method signature="Grouping1.TC1()[pri:0, instance:TestNG_XML.Grouping1@4803b726]" name="TC1" class="TestNG_XML.Grouping1"/>
+        <method signature="Grouping1.TC3()[pri:0, instance:TestNG_XML.Grouping1@4803b726]" name="TC3" class="TestNG_XML.Grouping1"/>
+        <method signature="Grouping2.TC5()[pri:0, instance:TestNG_XML.Grouping2@2c35e847]" name="TC5" class="TestNG_XML.Grouping2"/>
+        <method signature="Grouping2.TC7()[pri:0, instance:TestNG_XML.Grouping2@2c35e847]" name="TC7" class="TestNG_XML.Grouping2"/>
+        <method signature="Grouping2.TC9()[pri:0, instance:TestNG_XML.Grouping2@2c35e847]" name="TC9" class="TestNG_XML.Grouping2"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-12-10T23:59:46 IST" name="Test" finished-at="2022-12-10T23:59:46 IST" duration-ms="95">
+      <class name="TestNG_XML.Grouping2">
+        <test-method signature="TC5()[pri:0, instance:TestNG_XML.Grouping2@2c35e847]" started-at="2022-12-10T23:59:46 IST" name="TC5" finished-at="2022-12-10T23:59:46 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC5 regression Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method signature="TC7()[pri:0, instance:TestNG_XML.Grouping2@2c35e847]" started-at="2022-12-10T23:59:46 IST" name="TC7" finished-at="2022-12-10T23:59:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC7 regression Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method signature="TC9()[pri:0, instance:TestNG_XML.Grouping2@2c35e847]" started-at="2022-12-10T23:59:46 IST" name="TC9" finished-at="2022-12-10T23:59:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC9 regression Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC9 -->
+      </class> <!-- TestNG_XML.Grouping2 -->
+      <class name="TestNG_XML.Grouping1">
+        <test-method signature="TC1()[pri:0, instance:TestNG_XML.Grouping1@4803b726]" started-at="2022-12-10T23:59:46 IST" name="TC1" finished-at="2022-12-10T23:59:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC1 regression Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC3()[pri:0, instance:TestNG_XML.Grouping1@4803b726]" started-at="2022-12-10T23:59:46 IST" name="TC3" finished-at="2022-12-10T23:59:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC3 regression Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- TestNG_XML.Grouping1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

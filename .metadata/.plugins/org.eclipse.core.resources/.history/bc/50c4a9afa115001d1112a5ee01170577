@@ -1,0 +1,32 @@
+package ControlStatements;
+
+public class if_Study {
+
+	public static void main(String[] args)
+	{
+	    // if marks is greater than 40 then I am pass
+		// if (condition)
+	    //	{
+			         // block Statements
+	  //	}
+
+		int marks=60;
+		if (marks>=40)
+		{
+			System.out.println(" I am Pass");
+		}
+		     //if temp is greater than 28.9 turn on AC
+		
+		float temp=33.5f;
+		if (temp>40f)
+		{
+			System.out.println("turn on my AC");
+		}
+		
+		
+		
+		
+		
+	}
+
+}

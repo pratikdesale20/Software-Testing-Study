@@ -1,0 +1,25 @@
+package ControlStatements;
+
+public class if_Study {
+
+	public static void main(String[] args)
+	{
+	    // if marks is greater than 40 then I am pass
+		// if (condition)
+	    //	{
+			         // block Statements
+	  //	}
+
+		int marks=67;
+		if (marks>=40)
+		{
+			System.out.println(" I am Pass");
+		}
+		
+		
+		
+		
+		
+	}
+
+}

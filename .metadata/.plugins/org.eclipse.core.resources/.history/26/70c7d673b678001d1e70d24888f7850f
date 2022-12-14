@@ -1,0 +1,9 @@
+package TestNG_XML;
+
+import org.testng.annotations.Test;
+
+public class Grouping1 {
+  @Test
+  public void f() {
+  }
+}

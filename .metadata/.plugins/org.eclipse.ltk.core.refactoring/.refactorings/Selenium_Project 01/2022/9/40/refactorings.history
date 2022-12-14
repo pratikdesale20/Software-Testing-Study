@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;webElements_Method.IsUnable_MethodUse&apos; to &apos;IsEnabled_MethodUse&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Project 01&apos;&#x0D;&#x0A;- Original element: &apos;webElements_Method.IsUnable_MethodUse&apos;&#x0D;&#x0A;- Renamed element: &apos;webElements_Method.IsEnabled_MethodUse&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IsUnable_MethodUse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;webElements_Method{IsUnable_MethodUse.java[IsUnable_MethodUse" matchStrategy="1" name="IsEnabled_MethodUse" qualified="false" references="true" similarDeclarations="false" stamp="1664437293199" textual="false" version="1.0"/>
+</session>

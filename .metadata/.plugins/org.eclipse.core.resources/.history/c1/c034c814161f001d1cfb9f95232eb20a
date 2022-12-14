@@ -1,0 +1,13 @@
+package inherritance_study;
+
+public class Single_inherritance
+{
+  public void parent()
+  {
+	  System.out.println("superclass");
+  }
+  public static void study()
+  {
+	  System.out.println("SuperClass 02");
+  }
+}

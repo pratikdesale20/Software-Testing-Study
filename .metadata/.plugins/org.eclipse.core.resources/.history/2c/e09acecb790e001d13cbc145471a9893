@@ -1,0 +1,29 @@
+package methods;
+
+public class Revision {
+
+	public static void main(String[] args)
+	
+	{ Revision_P=new Revision();
+	   P.test1();
+	   
+		test2();
+		
+		Revision_1 Q=new Revision_1();
+		Q.test3();
+		Revision_1.test4();
+		
+	}
+	     // 1) Non-Static Regular Method
+	        public void test1()
+	        {
+	        	System.out.println("I am test1 non-Static method from Same class");
+	        }
+	    // 2)static Regular Method
+	        public static void test2()
+	        {
+	        	System.out.println("I am test2 static method from same class");
+	        }
+	   
+	
+}

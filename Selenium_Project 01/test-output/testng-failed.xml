@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="NeoStox_TestClasses.ValidateNeoStox_Combine_ACCbalance_Username">
+        <methods>
+          <include name="loginNeoStox"/>
+          <include name="validateACCBalance"/>
+          <include name="validateUserID"/>
+          <include name="launchNeoStox"/>
+          <include name="LogOutFromNeostox"/>
+          <include name="closBrowser"/>
+        </methods>
+      </class> <!-- NeoStox_TestClasses.ValidateNeoStox_Combine_ACCbalance_Username -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

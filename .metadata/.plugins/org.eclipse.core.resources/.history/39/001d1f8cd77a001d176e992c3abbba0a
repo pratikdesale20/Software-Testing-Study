@@ -1,0 +1,10 @@
+package StringBuffer_StringBuilder;
+
+public class StringBuffer_append {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

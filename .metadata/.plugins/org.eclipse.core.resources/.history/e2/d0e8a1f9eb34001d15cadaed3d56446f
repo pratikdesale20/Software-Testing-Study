@@ -1,0 +1,26 @@
+package selenium_Study;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class mySelenium_1StCode {
+
+	public static void main(String[] args) 
+	{
+		
+		System.setProperty("webdriver.chrome.driver", "F:\\Software Testing Notes\\QA\\chromedriver_win32");
+	
+		WebDriver driver= new ChromeDriver();
+		
+		driver.get("https://justdial.com/");
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

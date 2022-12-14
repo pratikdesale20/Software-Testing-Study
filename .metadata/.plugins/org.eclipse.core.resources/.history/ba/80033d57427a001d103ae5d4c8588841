@@ -1,0 +1,39 @@
+package Logical_Programe;
+
+public class ReverseTheNumber_WithoutString {
+
+	public static void main(String[] args) {
+
+		
+		int orgNum=12345;
+		int revNum=0;
+		
+		for(int i=orgNum;i>0;i=i/10)
+		{
+			
+			int rem=i%10;
+			revNum=revNum*10+rem;
+			  //4=0*10+4
+			  //
+			  //
+			  //
+		}
+		
+		System.out.println(revNum);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
