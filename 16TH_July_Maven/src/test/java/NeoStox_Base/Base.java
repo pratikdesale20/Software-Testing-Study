@@ -20,11 +20,6 @@ public class Base
 		 driver=new ChromeDriver();
 		 
 		 driver.manage().window().maximize();
-		 
-		 
-		 
-		 
-			     
 		 driver.get("https://neostox.com/");
 		 Reporter.log("Launching Browser",true);
 		 Thread.sleep(1000);
